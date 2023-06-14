@@ -6,8 +6,12 @@ This repo will contain some random Red Team Scripts that I made that can be usef
 
 ### application_downloader.py
 Thanks to the awesome research by Nick Powers (@zyn3rgy) and Steven Flores (@0xthirteen) over at Specterops I decided that I needed to create this script in order to quickly download .application files.
+The script will download the .application file and parse it. Figure out the manifest and pull down the rest of the files. 
+
 Link to research: https://posts.specterops.io/less-smartscreen-more-caffeine-ab-using-clickonce-for-trusted-code-execution-1446ea8051c5
+
 Link to talk: https://www.youtube.com/watch?v=cyHxoKvD8Ck
+
 They also released some tools: 
 - https://github.com/zyn3rgy/ClickonceHunter
 - https://github.com/0xthirteen/AssemblyHunter

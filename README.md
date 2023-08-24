@@ -43,8 +43,8 @@ https://www.randomdomain2.com/someapp2/someapp2.application
 
 ### offline_address_book_extractor.py
 A script I wrote based losely on the https://github.com/grnbeltwarrior/OAB_Cleaver/blob/main/OAB_Cleaver.py script.
-You will need to get your hands on a udetails.oab file that by default resides in the folder C:\Users\<USERNAME>\AppData\Local\Microsoft\Outlook\Offline Address Books\<GUID>\udetails.oab.
-The udetails.oab will be input to this script and it parses out SMTP,SIP,UPN and Phone numbers.
+You will need to get your hands on a udetails.oab file that by default resides in the folder `C:\Users\<USERNAME>\AppData\Local\Microsoft\Outlook\Offline Address Books\<GUID>\udetails.oab`.
+The `udetails.oab` will be input to this script and it parses out SMTP,SIP,UPN and Phone numbers.
 
 ```
 usage: offline_address_book_extractor.py [-h] -i UDETAILSFILE [-o OUTFILE]

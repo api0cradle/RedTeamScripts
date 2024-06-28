@@ -64,3 +64,11 @@ Example output:
 UPN:mail.user1@company.com,Phone:None,Smtp:{'SMTP:mail.user1@company.com', 'smtp:user1_alias@company.com'},Sip:None
 UPN:mail.user2@company.com,Phone:999-999-9999,Smtp:{'smtp:mail.user2@company.onmicrosoft.com', 'SMTP:mail,user2@company.com'},Sip:{'SIP:mail,user2@company.com'}
 ```
+
+### generate-udl.ps1
+A super simple PowerShellscript to generate UDL files. Takes a list of email addresses and outputs UDL files.
+Remember to change the following variables inside the script:
+$serveraddress
+$path
+$userfilepath
+$prefixudl
